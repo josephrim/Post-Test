@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Blog App
+
+A simple blog application built with **Next.js**, **TypeScript**, and **Tailwind CSS** that performs CRUD (Create, Read, Update, Delete) operations on blog posts using the JSONPlaceholder API.
+
+## Features
+
+- **Create Post**: Users can create new blog posts.
+- **Read Posts**: All blog posts are displayed in a grid layout.
+- **Update Post**: Users can edit existing blog posts.
+- **Delete Post**: Users can delete posts, with a confirmation prompt.
+- **Responsive Design**: The application is responsive, adapting to mobile, tablet, and desktop views.
+
+## Technologies Used
+
+- **Next.js**: React framework for server-side rendering and static site generation.
+- **TypeScript**: Strongly-typed JavaScript for building robust and maintainable code.
+- **Tailwind CSS**: Utility-first CSS framework for styling.
+- **JSONPlaceholder API**: A free online REST API used to mock CRUD operations.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Make sure you have the following installed on your system:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Node.js** (v14 or later)
+- **npm** (v6 or later)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Clone the repository**:
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+   git clone https://github.com/josephrim/post-test.git
+   cd my-crud-app
+   
